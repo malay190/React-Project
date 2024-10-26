@@ -1,0 +1,42 @@
+nav {
+  position: relative;
+  display: flex;
+  gap: 0px;
+  opacity: 0px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  width: Hug (231px) px;
+  height: Hug (24px) px;
+  top: 24px;
+  left: 1128px;
+  gap: 24px;
+  opacity: 0px;
+  font-weight: 500;
+}
+
+/* Navigation Links*/
+.nav-links li {
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.nav-links li:hover {
+  background-color: #b18c8c; /* Highlight when hovered */
+  border-radius: 5px;
+}
+
+.logo {
+  width: 72px;
+  height: 72px;
+  top: 4px;
+  left: 91px;
+  gap: 0px;
+  opacity: 0px;
+}

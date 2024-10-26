@@ -1,0 +1,45 @@
+.body-section {
+  position: relative;
+  display: flex;
+  width: Hug (1, 161px) px;
+  height: 600px;
+  top: 10px;
+  left: 198px;
+  gap: 81px;
+  opacity: 0px;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.contact-btn {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.form-control {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-control input {
+  height: 40px;
+  padding: 0 8px;
+}
+
+.form-control label {
+  font-size: 14px;
+  position: absolute;
+  top: -10px;
+  left: 10px;
+  background-color: white;
+  padding: 0 10px;
+}
